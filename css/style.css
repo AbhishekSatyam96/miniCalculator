@@ -1,0 +1,30 @@
+form{
+
+    margin: 2% 40% 0% 33%;
+}
+table{
+    margin-top: 2px;
+    background-color: grey;
+}
+td{
+    border-radius: 2px;
+   
+    margin: 80px;
+    padding: 20px;
+}
+input{
+    padding: 15px;
+    background-color: brown;
+    color: orange;
+    border: none;
+}
+
+input[type="text"]{
+    width: 85%;
+    background-color: black;
+    color: white;
+}
+h1{
+    margin-left: 40px;
+    color: red;
+}
