@@ -43,6 +43,16 @@
             </tr>
         </table>
     </form>
+    <footer>
+         <h3 id="dy">Day is</h3>
+    </footer>
+    <script>
+        function tick(){
+        var d = new Date();
+        document.getElementById("dy").innerHTML = d;
+        }
+        setInterval(tick,1000)
+    </script>
 </body>
 
 </html>
